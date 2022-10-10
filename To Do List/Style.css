@@ -1,0 +1,91 @@
+:root { 
+    --grayblue:#1a2030
+    --dark:#000
+    --white:#fff
+    --bluegray:#2d355a
+    --blue: #313f5f
+}
+*{  margin:0;
+    padding:0;}
+
+body {
+    background-color: #1a2030;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* .logo{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 30 px;
+} */
+#titulo {font-size: 46px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 150px;
+}
+
+form{
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+}
+form input[type="text"] {
+    background-color: #1a2030;
+    color:  white;
+    border-style: none;
+    font-size: 1.5em;
+}
+
+form input[type="text"] ::placeholder {
+    color: whitesmoke;}
+
+form input[type="text"]::focus{
+        outline: none;
+    }
+form input[type="submit"] {
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    color:#2d355a;
+}
+form input[type="submit"]:hover {
+    background-color: var(--grayblue);
+    cursor: pointer;
+    color: white;
+}
+.list-container{
+    width: 400px;
+    margin: 0 auto;
+
+}
+.task-container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: darkblue;
+    
+
+}
+.closebtn {
+    width: 15px;
+    height: 15px;
+
+}
+.closebtn:hover {
+    cursor: pointer;
+}
+#stats{
+    margin-top: 26px;
+    font-size: 1.1em;
+    color: #a2aab5;
+    text-align: center;
+
+}
